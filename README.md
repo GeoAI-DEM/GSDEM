@@ -53,12 +53,12 @@ python test_gsdem_dem.py
 
 Outputs RMSE, MAE, R2, ME, PSNR, and SSIM, and writes a CSV log.
 
-## Data Preprocessing (Optional)
+## Data Preprocessing
 
 `dataprocess.py` is an example script for cropping raster data and building HDF5
 training sets. Adjust paths, thresholds, and region filters to your dataset.
 
-## Global Inference (Optional)
+## Global Inference
 
 `infer_gebco_global.py` performs 15× super-resolution on GEBCO 2025 and writes
 NASADEM-style tiles. Configure GEBCO path, checkpoint path, and output directory
