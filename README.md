@@ -4,6 +4,14 @@ GSDEM is a super-resolution project for Digital Elevation Models (DEM). It recon
 high-resolution single-channel DEM from a low-resolution input. The current model performs
 15× upscaling using a 3× then 5× staged upsampling pipeline.
 
+## GLOD-1s Dataset
+
+GLOD-1s is the global 1 arc-second land–ocean DEM generated using the GSDEM framework. The complete dataset is approximately 2.4 TB.
+
+Due to its large data volume, GLOD-1s is not hosted directly in this GitHub repository. The complete dataset will be distributed through Google Drive. Public download links and access instructions will be added to this repository upon acceptance of the associated manuscript.
+
+**Current status:** Preparing for public release.
+
 ## Repository Layout
 
 - `models/network_gsdem.py` - Model definition and optional domain classifier
